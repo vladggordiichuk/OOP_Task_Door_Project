@@ -1,0 +1,372 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F2609812470061A00D09ED7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F2609802470061A00D09ED7 /* AppDelegate.swift */; };
+		7F2609832470061A00D09ED7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F2609822470061A00D09ED7 /* SceneDelegate.swift */; };
+		7F2609872470062300D09ED7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F2609862470062300D09ED7 /* Assets.xcassets */; };
+		7F26098A2470062300D09ED7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F2609892470062300D09ED7 /* Preview Assets.xcassets */; };
+		7F26099524700BEA00D09ED7 /* DB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F26099424700BEA00D09ED7 /* DB.swift */; };
+		7F260998247015CE00D09ED7 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F260997247015CE00D09ED7 /* User.swift */; };
+		7F26099A247015E100D09ED7 /* Door.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F260999247015E100D09ED7 /* Door.swift */; };
+		7F26099C247015F400D09ED7 /* Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F26099B247015F400D09ED7 /* Controller.swift */; };
+		7F2609A02470167100D09ED7 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F26099F2470167100D09ED7 /* LoginView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7F26097D2470061A00D09ED7 /* OOP Door Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OOP Door Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F2609802470061A00D09ED7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7F2609822470061A00D09ED7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7F2609862470062300D09ED7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7F2609892470062300D09ED7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7F26098E2470062300D09ED7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F26099424700BEA00D09ED7 /* DB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DB.swift; sourceTree = "<group>"; };
+		7F260997247015CE00D09ED7 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		7F260999247015E100D09ED7 /* Door.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Door.swift; sourceTree = "<group>"; };
+		7F26099B247015F400D09ED7 /* Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Controller.swift; sourceTree = "<group>"; };
+		7F26099F2470167100D09ED7 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7F26097A2470061A00D09ED7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7F2609742470061A00D09ED7 = {
+			isa = PBXGroup;
+			children = (
+				7F26097F2470061A00D09ED7 /* OOP Door Project */,
+				7F26097E2470061A00D09ED7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7F26097E2470061A00D09ED7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F26097D2470061A00D09ED7 /* OOP Door Project.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7F26097F2470061A00D09ED7 /* OOP Door Project */ = {
+			isa = PBXGroup;
+			children = (
+				7F26099E2470164B00D09ED7 /* Views */,
+				7F260996247015BC00D09ED7 /* Models */,
+				7F26099D2470160900D09ED7 /* Supporting Files */,
+				7F2609882470062300D09ED7 /* Preview Content */,
+			);
+			path = "OOP Door Project";
+			sourceTree = "<group>";
+		};
+		7F2609882470062300D09ED7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7F2609892470062300D09ED7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7F260996247015BC00D09ED7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7F26099424700BEA00D09ED7 /* DB.swift */,
+				7F260997247015CE00D09ED7 /* User.swift */,
+				7F260999247015E100D09ED7 /* Door.swift */,
+				7F26099B247015F400D09ED7 /* Controller.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7F26099D2470160900D09ED7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7F2609802470061A00D09ED7 /* AppDelegate.swift */,
+				7F2609822470061A00D09ED7 /* SceneDelegate.swift */,
+				7F2609862470062300D09ED7 /* Assets.xcassets */,
+				7F26098E2470062300D09ED7 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7F26099E2470164B00D09ED7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7F26099F2470167100D09ED7 /* LoginView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7F26097C2470061A00D09ED7 /* OOP Door Project */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F2609912470062300D09ED7 /* Build configuration list for PBXNativeTarget "OOP Door Project" */;
+			buildPhases = (
+				7F2609792470061A00D09ED7 /* Sources */,
+				7F26097A2470061A00D09ED7 /* Frameworks */,
+				7F26097B2470061A00D09ED7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OOP Door Project";
+			productName = "OOP Door Project";
+			productReference = 7F26097D2470061A00D09ED7 /* OOP Door Project.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7F2609752470061A00D09ED7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Vlad Gordiichuk";
+				TargetAttributes = {
+					7F26097C2470061A00D09ED7 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 7F2609782470061A00D09ED7 /* Build configuration list for PBXProject "OOP Door Project" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7F2609742470061A00D09ED7;
+			productRefGroup = 7F26097E2470061A00D09ED7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7F26097C2470061A00D09ED7 /* OOP Door Project */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7F26097B2470061A00D09ED7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F26098A2470062300D09ED7 /* Preview Assets.xcassets in Resources */,
+				7F2609872470062300D09ED7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7F2609792470061A00D09ED7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F2609812470061A00D09ED7 /* AppDelegate.swift in Sources */,
+				7F26099A247015E100D09ED7 /* Door.swift in Sources */,
+				7F26099524700BEA00D09ED7 /* DB.swift in Sources */,
+				7F2609832470061A00D09ED7 /* SceneDelegate.swift in Sources */,
+				7F260998247015CE00D09ED7 /* User.swift in Sources */,
+				7F2609A02470167100D09ED7 /* LoginView.swift in Sources */,
+				7F26099C247015F400D09ED7 /* Controller.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7F26098F2470062300D09ED7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7F2609902470062300D09ED7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7F2609922470062300D09ED7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"OOP Door Project/Preview Content\"";
+				DEVELOPMENT_TEAM = BL3998789E;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "OOP Door Project/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.OOP-Door-Project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7F2609932470062300D09ED7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"OOP Door Project/Preview Content\"";
+				DEVELOPMENT_TEAM = BL3998789E;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "OOP Door Project/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.OOP-Door-Project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7F2609782470061A00D09ED7 /* Build configuration list for PBXProject "OOP Door Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F26098F2470062300D09ED7 /* Debug */,
+				7F2609902470062300D09ED7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F2609912470062300D09ED7 /* Build configuration list for PBXNativeTarget "OOP Door Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F2609922470062300D09ED7 /* Debug */,
+				7F2609932470062300D09ED7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7F2609752470061A00D09ED7 /* Project object */;
+}
