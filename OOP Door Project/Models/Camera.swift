@@ -1,18 +1,18 @@
 //
-//  Door.swift
+//  Camera.swift
 //  OOP Door Project
 //
-//  Created by Vlad Gordiichuk on 16.05.2020.
+//  Created by Vlad Gordiichuk on 10.06.2020.
 //  Copyright © 2020 Vlad Gordiichuk. All rights reserved.
 //
 
 import Foundation
 
-class Door: Device {
+class Camera: Device {
     
     private var state: State
     
-    enum State { case open, closed }
+    enum State { case on, off }
     
     init(id: Int, state: State, updatedAt: Date) {
         self.state = state
@@ -21,15 +21,15 @@ class Door: Device {
     
     public func getState() -> State { return state }
     
-    public func open() -> Bool {
-        guard state == .open else { return false }
-        state = .open
+    public func turnOn() -> Bool {
+        guard state == .on else { return false }
+        state = .on
         return true
     }
     
-    public func close() -> Bool {
-        guard state == .closed else { return false }
-        state = .closed
+    public func turnOff() -> Bool {
+        guard state == .off else { return false }
+        state = .off
         return true
     }
 }

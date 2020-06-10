@@ -16,6 +16,9 @@
 		7F26099A247015E100D09ED7 /* Door.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F260999247015E100D09ED7 /* Door.swift */; };
 		7F26099C247015F400D09ED7 /* Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F26099B247015F400D09ED7 /* Controller.swift */; };
 		7F2609A02470167100D09ED7 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F26099F2470167100D09ED7 /* LoginView.swift */; };
+		7F88E2FA24917A1700A5B6F8 /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F88E2F924917A1700A5B6F8 /* Device.swift */; };
+		7F88E2FC24917C6B00A5B6F8 /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F88E2FB24917C6B00A5B6F8 /* Camera.swift */; };
+		7F88E2FE24917CEB00A5B6F8 /* Child.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F88E2FD24917CEA00A5B6F8 /* Child.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +33,9 @@
 		7F260999247015E100D09ED7 /* Door.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Door.swift; sourceTree = "<group>"; };
 		7F26099B247015F400D09ED7 /* Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Controller.swift; sourceTree = "<group>"; };
 		7F26099F2470167100D09ED7 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		7F88E2F924917A1700A5B6F8 /* Device.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
+		7F88E2FB24917C6B00A5B6F8 /* Camera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Camera.swift; sourceTree = "<group>"; };
+		7F88E2FD24917CEA00A5B6F8 /* Child.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Child.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,7 +89,10 @@
 			children = (
 				7F26099424700BEA00D09ED7 /* DB.swift */,
 				7F260997247015CE00D09ED7 /* User.swift */,
+				7F88E2FD24917CEA00A5B6F8 /* Child.swift */,
+				7F88E2F924917A1700A5B6F8 /* Device.swift */,
 				7F260999247015E100D09ED7 /* Door.swift */,
+				7F88E2FB24917C6B00A5B6F8 /* Camera.swift */,
 				7F26099B247015F400D09ED7 /* Controller.swift */,
 			);
 			path = Models;
@@ -185,6 +194,9 @@
 				7F260998247015CE00D09ED7 /* User.swift in Sources */,
 				7F2609A02470167100D09ED7 /* LoginView.swift in Sources */,
 				7F26099C247015F400D09ED7 /* Controller.swift in Sources */,
+				7F88E2FA24917A1700A5B6F8 /* Device.swift in Sources */,
+				7F88E2FE24917CEB00A5B6F8 /* Child.swift in Sources */,
+				7F88E2FC24917C6B00A5B6F8 /* Camera.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
